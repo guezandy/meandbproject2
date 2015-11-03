@@ -13,8 +13,8 @@ angular.module('clientApp')
 
   	$scope.checkDevice = function(id) {
   		$scope.dev = Device.one('5637e568e9e25b54d773acbb').get('active');
-  		console.log($scope.dev);
-  	}
+      console.log($scope.dev);
+   	}
 
   	/*$scope.device = {};
 	Device.one($routeParams.id).get().then(function(device) {

@@ -22,10 +22,14 @@ angular
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
+      })   
+      .when('/test2', {
+        templateUrl: 'views/main/loginform.html',
+        controller: 'LoginCtrl',
+      })      
+      .when('/test', {
+        templateUrl: 'views/login/login.html',
+        controller: 'LoginCtrl',
       })
       .when('/device', {
         templateUrl: 'views/device.html',
