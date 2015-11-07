@@ -21,5 +21,3 @@ grunt serve
 
 A browser will open with the project live. 
 
-In the top navigation click on devices and add a device! 
-Then go back to the main screen. If the device is active (active = true) then it's credentials will work on the login screen.
