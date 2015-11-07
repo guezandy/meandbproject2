@@ -1,3 +1,3 @@
 module.exports = {
-  'device': require('./controllers/DeviceController')
+  'movie': require('./controllers/MovieController')
 };

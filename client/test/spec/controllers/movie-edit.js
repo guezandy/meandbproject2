@@ -1,23 +1,23 @@
 'use strict';
 
-describe('Controller: DeviceCtrl', function () {
+describe('Controller: MovieEditCtrl', function () {
 
   // load the controller's module
   beforeEach(module('clientApp'));
 
-  var DeviceCtrl,
+  var MovieEditCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    DeviceCtrl = $controller('DeviceCtrl', {
+    MovieEditCtrl = $controller('MovieEditCtrl', {
       $scope: scope
       // place here mocked dependencies
     });
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(DeviceCtrl.awesomeThings.length).toBe(3);
+    expect(MovieEditCtrl.awesomeThings.length).toBe(3);
   });
 });

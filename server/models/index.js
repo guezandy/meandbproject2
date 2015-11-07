@@ -1,4 +1,4 @@
 module.exports = {
-  device: require('./Device')
+  movie: require('./Movie')
 };
 

@@ -28,7 +28,7 @@ app.use('/hello', function(req, res, next) {
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/meanapp');
+mongoose.connect('mongodb://localhost/dbproject');
 mongoose.connection.once('open', function() {
 	  // Load the models.
 	  app.models = require('./models/index');
