@@ -1,4 +1,4 @@
-# callpal
+# DB project
 
 To run open 3 command prompts:
 
